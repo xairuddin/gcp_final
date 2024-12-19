@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: gcpfinal
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/final?useSSL=false&serverTimezone=UTC
+    username: final
+    password: final
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

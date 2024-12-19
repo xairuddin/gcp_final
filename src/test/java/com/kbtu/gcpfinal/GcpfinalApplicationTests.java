@@ -1,0 +1,13 @@
+package com.kbtu.gcpfinal;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class GcpfinalApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
